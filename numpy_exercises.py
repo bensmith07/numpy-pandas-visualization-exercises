@@ -365,5 +365,3 @@ print(np.shape(d.transpose()))
 # Exercise 10 - Reshape d into an array of 9 x 2
 
 reshaped_d = d.reshape(9, 2)
-
-
