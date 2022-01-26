@@ -43,7 +43,7 @@ print(centered_a)
 # 7. Calculate the z-score for each data point. 
 #    z = (x - mu)/sigma
 
-z_scores_a = (a - a.mean())/a.std()
+z_scores_a = (a - a.mean()) / a.std()
 print(z_scores_a)
 
 ##############################################################################
@@ -234,11 +234,16 @@ print(np.shape(b))
 # Exercise 10 - transpose the array b.
 
 print(np.transpose(b))
+#alternatively
+b.T
 
 ##############################################################################
 # Exercise 11 - reshape the array b to be a single list of 6 numbers. (1 x 6)
 
 print(b.reshape(1, 6))
+
+# alternatively 
+b.flatten()
 
 ##############################################################################
 # Exercise 12 - reshape the array b to be a list of 6 lists, each containing 
